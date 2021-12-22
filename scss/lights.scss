@@ -116,7 +116,14 @@
 
   /* mobile */
   .mobile-view .lightrope {
-    margin-top: 44px;
+    margin-top: -36px;
+    z-index: 101;
+    body.category & {
+      @media screen and (max-width: 600px) {
+        position: relative;
+        background: var(--secondary);
+      }
+    }
   }
 } @else {
   .lightrope {
