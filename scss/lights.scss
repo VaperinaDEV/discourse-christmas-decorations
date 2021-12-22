@@ -115,11 +115,15 @@
   }
 
   /* mobile */
-  .mobile-view .lightrope {
-    margin-top: -36px;
-    z-index: 101;
-    body.category & {
-      @media screen and (max-width: 600px) {
+  .mobile-view {
+    .lightrope {
+      margin-top: -36px;
+      z-index: 101;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .mobile-view {
+      body.category {
         position: relative;
         background: var(--secondary);
       }
