@@ -124,8 +124,10 @@
   @media screen and (max-width: 600px) {
     .mobile-view {
       body.category {
-        position: relative;
-        background: var(--secondary);
+        .lightrope {
+          position: relative;
+          background: var(--secondary);
+        }
       }
     }
   }
