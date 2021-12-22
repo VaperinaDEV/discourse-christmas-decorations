@@ -8,7 +8,7 @@
 
 @if $enable-lights == "true" {
   $globe-width:   12px;
-  $globe-height:  28px;
+  $globe-height:  15px;
   $globe-spacing: 40px;
   $globe-spread: 3px;
   $light-off-opacity: 0.4;
@@ -21,7 +21,7 @@
     position: absolute;
     left: 0;
     z-index: 1;
-    margin: -45px 0 0 0;
+    margin: 44px 0 0 0;
     padding: 0;
     pointer-events: none;
     width: 100%;
@@ -116,7 +116,7 @@
 
   /* mobile */
   .mobile-view .lightrope {
-    margin-top: -26px;
+    margin-top: 44px;
   }
 } @else {
   .lightrope {
