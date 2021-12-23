@@ -117,16 +117,16 @@
   /* mobile */
   .mobile-view {
     .lightrope {
+      display: none;
       margin-top: -36px;
       z-index: 101;
     }
   }
   @media screen and (max-width: 600px) {
     .mobile-view {
-      display: none;
       body.staff:not(.archetype-regular) {
-        display: block;
         .lightrope {
+          display: block;
           position: relative;
           background: var(--secondary);
         }
