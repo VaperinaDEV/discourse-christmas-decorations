@@ -123,7 +123,9 @@
   }
   @media screen and (max-width: 600px) {
     .mobile-view {
-      body.staff.category {
+      display: none;
+      body.staff:not(.archetype-regular) {
+        display: block;
         .lightrope {
           position: relative;
           background: var(--secondary);
